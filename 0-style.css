@@ -1,4 +1,3 @@
-/* CUSTOM FONTS */
 
 @font-face {
     font-family: 'Source sans pro';
@@ -10,11 +9,11 @@
     src: url('./fonts/Spin-Cycle-OT/spincycle_ot.otf');
 }
 
-/* CSS VARIABLES */
+/* css variab */
 
 :root {
     
-    /* FONTS */
+    /* fonts */
     --font-family: 'Source sans pro', 'Spin Cycle', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --max-width: 100rem;
     --big-title-size: 3.2rem;
@@ -23,19 +22,19 @@
     --medium-text-font-size: 1.6rem;
     --small-text-font-size: 1.4rem;
     
-    /* COLORS */
+    /* colors */
     --red-color: #FF6565;
     --back-color: #071629;
     --white-color: #FFFFFF;
 
-    /* LINKS */
+    /* links */
     --link-hover-color: var(--red-color);
     
-    /* ELEMENTS PADDINGS & MARGINS */
+    /* elements paddings and margins */
     --container-padding: 2rem 3rem;
     --title-icon-margin-left: 4rem;
 
-    /* BUTTONS */
+    /* buttons */
     --btn-display: block;
     --btn-bg-color: var(--red-color);
     --btn-text-color: var(--white-color);
@@ -46,7 +45,7 @@
     --btn-box-shadow: 10px 10px 50px 12px rgb(0 0 0 / 25%);
 }
 
-/* BASIC */
+/* all */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -58,7 +57,7 @@ html {
     font-size: 62.5%;
 }
 
-/* GENERAL */
+/* general */
 
 .container {
     max-width: var(--max-width);
@@ -75,7 +74,7 @@ a:active, a:hover {
     color: var(--link-hover-color);
 }
 
-/* HEADER */
+/* header */
 
 header {
     display: flex;
@@ -120,7 +119,7 @@ header {
     margin-bottom: 0.8rem;
 }
 
-/* HERO SECTION */
+/* hero section */
 
 .hero-section {
     background-image: url('./images/headphones_hero_1.jpg');
@@ -265,7 +264,7 @@ header {
     }
 }
 
-/* BUTTONS */
+/* buttons */
 
 #small-icon-btn {
     display: none;
